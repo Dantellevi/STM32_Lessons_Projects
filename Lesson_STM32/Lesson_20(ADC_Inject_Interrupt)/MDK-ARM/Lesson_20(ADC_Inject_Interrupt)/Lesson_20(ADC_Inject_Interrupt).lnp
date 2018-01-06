@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"lesson_20(adc_inject_interrupt)\stm32f4xx_it.o"
+"lesson_20(adc_inject_interrupt)\main.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_msp.o"
+"lesson_20(adc_inject_interrupt)\lcd.o"
+"lesson_20(adc_inject_interrupt)\system_stm32f4xx.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_flash.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_rcc_ex.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_adc.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_rcc.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_dma.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_dma_ex.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_pwr.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_adc_ex.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_pwr_ex.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_flash_ramfunc.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_cortex.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_flash_ex.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal_gpio.o"
+"lesson_20(adc_inject_interrupt)\stm32f4xx_hal.o"
+"lesson_20(adc_inject_interrupt)\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Lesson_20(ADC_Inject_Interrupt)\Lesson_20(ADC_Inject_Interrupt).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lesson_20(ADC_Inject_Interrupt).map" -o Lesson_20(ADC_Inject_Interrupt)\Lesson_20(ADC_Inject_Interrupt).axf

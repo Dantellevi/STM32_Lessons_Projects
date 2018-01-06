@@ -1,0 +1,24 @@
+--cpu Cortex-M4.fp
+"less_10(pwm)\stm32f4xx_hal_rcc_ex.o"
+"less_10(pwm)\stm32f4xx_hal_tim_ex.o"
+"less_10(pwm)\stm32f4xx_hal_dma_ex.o"
+"less_10(pwm)\stm32f4xx_hal_tim.o"
+"less_10(pwm)\stm32f4xx_hal_pwr.o"
+"less_10(pwm)\stm32f4xx_hal_cortex.o"
+"less_10(pwm)\stm32f4xx_hal_gpio.o"
+"less_10(pwm)\stm32f4xx_hal_flash.o"
+"less_10(pwm)\stm32f4xx_hal.o"
+"less_10(pwm)\stm32f4xx_hal_flash_ex.o"
+"less_10(pwm)\stm32f4xx_hal_pwr_ex.o"
+"less_10(pwm)\stm32f4xx_hal_flash_ramfunc.o"
+"less_10(pwm)\stm32f4xx_hal_dma.o"
+"less_10(pwm)\stm32f4xx_hal_rcc.o"
+"less_10(pwm)\system_stm32f4xx.o"
+"less_10(pwm)\stm32f4xx_it.o"
+"less_10(pwm)\stm32f4xx_hal_msp.o"
+"less_10(pwm)\main.o"
+"less_10(pwm)\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Less_10(PWM)\Less_10(PWM).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Less_10(PWM).map" -o Less_10(PWM)\Less_10(PWM).axf

@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"seundomer\stm32f4xx_it.o"
+"seundomer\stm32f4xx_hal_msp.o"
+"seundomer\main.o"
+"seundomer\lcd.o"
+"seundomer\startup_stm32f407xx.o"
+"seundomer\system_stm32f4xx.o"
+"seundomer\stm32f4xx_hal_cortex.o"
+"seundomer\stm32f4xx_hal_flash_ex.o"
+"seundomer\stm32f4xx_hal_pwr.o"
+"seundomer\stm32f4xx_hal.o"
+"seundomer\stm32f4xx_hal_tim_ex.o"
+"seundomer\stm32f4xx_hal_rcc.o"
+"seundomer\stm32f4xx_hal_gpio.o"
+"seundomer\stm32f4xx_hal_flash.o"
+"seundomer\stm32f4xx_hal_flash_ramfunc.o"
+"seundomer\stm32f4xx_hal_dma.o"
+"seundomer\stm32f4xx_hal_pwr_ex.o"
+"seundomer\stm32f4xx_hal_tim.o"
+"seundomer\stm32f4xx_hal_rcc_ex.o"
+"seundomer\stm32f4xx_hal_dma_ex.o"
+--library_type=microlib --strict --scatter "seundomer\seundomer.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "seundomer.map" -o seundomer\seundomer.axf

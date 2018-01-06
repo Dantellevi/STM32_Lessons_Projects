@@ -1,0 +1,1 @@
+project_lesson_2_pir_lcd_relay\startup_stm32f407xx.o: startup_stm32f407xx.s

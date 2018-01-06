@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"less25(dinamic_spi)\stm32f4xx_it.o"
+"less25(dinamic_spi)\stm32f4xx_hal_msp.o"
+"less25(dinamic_spi)\main.o"
+"less25(dinamic_spi)\stm32f4xx_hal_pwr.o"
+"less25(dinamic_spi)\stm32f4xx_hal_flash_ex.o"
+"less25(dinamic_spi)\stm32f4xx_hal_gpio.o"
+"less25(dinamic_spi)\stm32f4xx_hal_cortex.o"
+"less25(dinamic_spi)\stm32f4xx_hal_tim.o"
+"less25(dinamic_spi)\stm32f4xx_hal_dma_ex.o"
+"less25(dinamic_spi)\stm32f4xx_hal_rcc.o"
+"less25(dinamic_spi)\stm32f4xx_hal_flash.o"
+"less25(dinamic_spi)\stm32f4xx_hal_tim_ex.o"
+"less25(dinamic_spi)\stm32f4xx_hal_rcc_ex.o"
+"less25(dinamic_spi)\stm32f4xx_hal_flash_ramfunc.o"
+"less25(dinamic_spi)\stm32f4xx_hal.o"
+"less25(dinamic_spi)\stm32f4xx_hal_spi.o"
+"less25(dinamic_spi)\stm32f4xx_hal_dma.o"
+"less25(dinamic_spi)\stm32f4xx_hal_pwr_ex.o"
+"less25(dinamic_spi)\system_stm32f4xx.o"
+"less25(dinamic_spi)\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Less25(Dinamic_SPI)\Less25(Dinamic_SPI).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Less25(Dinamic_SPI).map" -o Less25(Dinamic_SPI)\Less25(Dinamic_SPI).axf

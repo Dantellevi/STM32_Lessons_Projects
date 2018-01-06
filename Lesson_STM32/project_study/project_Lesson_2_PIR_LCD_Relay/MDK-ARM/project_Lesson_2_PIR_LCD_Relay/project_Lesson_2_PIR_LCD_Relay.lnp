@@ -1,0 +1,23 @@
+--cpu Cortex-M4.fp
+"project_lesson_2_pir_lcd_relay\main.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_it.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_msp.o"
+"project_lesson_2_pir_lcd_relay\lcd.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_flash_ramfunc.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_pwr.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_rcc_ex.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_gpio.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_dma_ex.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_flash.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_pwr_ex.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_flash_ex.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_dma.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_rcc.o"
+"project_lesson_2_pir_lcd_relay\stm32f4xx_hal_cortex.o"
+"project_lesson_2_pir_lcd_relay\system_stm32f4xx.o"
+"project_lesson_2_pir_lcd_relay\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "project_Lesson_2_PIR_LCD_Relay\project_Lesson_2_PIR_LCD_Relay.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "project_Lesson_2_PIR_LCD_Relay.map" -o project_Lesson_2_PIR_LCD_Relay\project_Lesson_2_PIR_LCD_Relay.axf

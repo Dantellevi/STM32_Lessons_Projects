@@ -1,0 +1,22 @@
+--cpu Cortex-M4.fp
+"switch_relay\main.o"
+"switch_relay\stm32f4xx_hal_msp.o"
+"switch_relay\stm32f4xx_it.o"
+"switch_relay\stm32f4xx_hal_gpio.o"
+"switch_relay\stm32f4xx_hal_dma.o"
+"switch_relay\stm32f4xx_hal_flash.o"
+"switch_relay\stm32f4xx_hal.o"
+"switch_relay\stm32f4xx_hal_pwr.o"
+"switch_relay\stm32f4xx_hal_flash_ramfunc.o"
+"switch_relay\stm32f4xx_hal_rcc.o"
+"switch_relay\stm32f4xx_hal_dma_ex.o"
+"switch_relay\stm32f4xx_hal_rcc_ex.o"
+"switch_relay\stm32f4xx_hal_cortex.o"
+"switch_relay\stm32f4xx_hal_pwr_ex.o"
+"switch_relay\stm32f4xx_hal_flash_ex.o"
+"switch_relay\startup_stm32f407xx.o"
+"switch_relay\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "switch_Relay\switch_Relay.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "switch_Relay.map" -o switch_Relay\switch_Relay.axf

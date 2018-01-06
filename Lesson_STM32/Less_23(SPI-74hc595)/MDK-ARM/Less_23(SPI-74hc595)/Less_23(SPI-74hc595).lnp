@@ -1,0 +1,23 @@
+--cpu Cortex-M4.fp
+"less_23(spi-74hc595)\startup_stm32f407xx.o"
+"less_23(spi-74hc595)\stm32f4xx_it.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_msp.o"
+"less_23(spi-74hc595)\main.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_cortex.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_flash.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_pwr_ex.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_dma.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_pwr.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_flash_ramfunc.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_dma_ex.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_gpio.o"
+"less_23(spi-74hc595)\stm32f4xx_hal.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_rcc_ex.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_flash_ex.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_spi.o"
+"less_23(spi-74hc595)\stm32f4xx_hal_rcc.o"
+"less_23(spi-74hc595)\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Less_23(SPI-74hc595)\Less_23(SPI-74hc595).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Less_23(SPI-74hc595).map" -o Less_23(SPI-74hc595)\Less_23(SPI-74hc595).axf

@@ -1,0 +1,22 @@
+--cpu Cortex-M4.fp
+"run_led\startup_stm32f407xx.o"
+"run_led\stm32f4xx_hal_msp.o"
+"run_led\main.o"
+"run_led\stm32f4xx_it.o"
+"run_led\system_stm32f4xx.o"
+"run_led\stm32f4xx_hal_cortex.o"
+"run_led\stm32f4xx_hal_rcc.o"
+"run_led\stm32f4xx_hal_flash.o"
+"run_led\stm32f4xx_hal_pwr_ex.o"
+"run_led\stm32f4xx_hal_pwr.o"
+"run_led\stm32f4xx_hal.o"
+"run_led\stm32f4xx_hal_flash_ramfunc.o"
+"run_led\stm32f4xx_hal_gpio.o"
+"run_led\stm32f4xx_hal_flash_ex.o"
+"run_led\stm32f4xx_hal_dma_ex.o"
+"run_led\stm32f4xx_hal_rcc_ex.o"
+"run_led\stm32f4xx_hal_dma.o"
+--library_type=microlib --strict --scatter "Run_Led\Run_Led.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Run_Led.map" -o Run_Led\Run_Led.axf

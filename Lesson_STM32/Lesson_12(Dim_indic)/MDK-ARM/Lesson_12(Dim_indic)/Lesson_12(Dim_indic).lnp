@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"lesson_12(dim_indic)\stm32f4xx_hal_flash_ex.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_pwr_ex.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_rcc_ex.o"
+"lesson_12(dim_indic)\stm32f4xx_hal.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_dma_ex.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_gpio.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_flash.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_pwr.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_cortex.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_flash_ramfunc.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_rcc.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_dma.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_tim.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_tim_ex.o"
+"lesson_12(dim_indic)\system_stm32f4xx.o"
+"lesson_12(dim_indic)\stm32f4xx_it.o"
+"lesson_12(dim_indic)\main.o"
+"lesson_12(dim_indic)\stm32f4xx_hal_msp.o"
+"lesson_12(dim_indic)\led.o"
+"lesson_12(dim_indic)\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Lesson_12(Dim_indic)\Lesson_12(Dim_indic).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lesson_12(Dim_indic).map" -o Lesson_12(Dim_indic)\Lesson_12(Dim_indic).axf

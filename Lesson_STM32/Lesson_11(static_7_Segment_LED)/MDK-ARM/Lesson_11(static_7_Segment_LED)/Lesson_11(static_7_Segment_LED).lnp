@@ -1,0 +1,23 @@
+--cpu Cortex-M4.fp
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_gpio.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_pwr.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_rcc.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_pwr_ex.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_cortex.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_flash_ex.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_dma.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_flash_ramfunc.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_dma_ex.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_flash.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_rcc_ex.o"
+"lesson_11(static_7_segment_led)\startup_stm32f407xx.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_hal_msp.o"
+"lesson_11(static_7_segment_led)\main.o"
+"lesson_11(static_7_segment_led)\stm32f4xx_it.o"
+"lesson_11(static_7_segment_led)\led.o"
+"lesson_11(static_7_segment_led)\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Lesson_11(static_7_Segment_LED)\Lesson_11(static_7_Segment_LED).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lesson_11(static_7_Segment_LED).map" -o Lesson_11(static_7_Segment_LED)\Lesson_11(static_7_Segment_LED).axf

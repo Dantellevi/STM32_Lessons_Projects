@@ -1,0 +1,24 @@
+--cpu Cortex-M4.fp
+"lessom_26(max7219)\system_stm32f4xx.o"
+"lessom_26(max7219)\stm32f4xx_hal_msp.o"
+"lessom_26(max7219)\stm32f4xx_it.o"
+"lessom_26(max7219)\main.o"
+"lessom_26(max7219)\max7219.o"
+"lessom_26(max7219)\stm32f4xx_hal_rcc_ex.o"
+"lessom_26(max7219)\stm32f4xx_hal_flash_ramfunc.o"
+"lessom_26(max7219)\stm32f4xx_hal_rcc.o"
+"lessom_26(max7219)\stm32f4xx_hal_gpio.o"
+"lessom_26(max7219)\stm32f4xx_hal_pwr.o"
+"lessom_26(max7219)\stm32f4xx_hal.o"
+"lessom_26(max7219)\stm32f4xx_hal_cortex.o"
+"lessom_26(max7219)\stm32f4xx_hal_dma_ex.o"
+"lessom_26(max7219)\stm32f4xx_hal_dma.o"
+"lessom_26(max7219)\stm32f4xx_hal_pwr_ex.o"
+"lessom_26(max7219)\stm32f4xx_hal_spi.o"
+"lessom_26(max7219)\stm32f4xx_hal_flash.o"
+"lessom_26(max7219)\stm32f4xx_hal_flash_ex.o"
+"lessom_26(max7219)\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Lessom_26(MAX7219)\Lessom_26(MAX7219).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lessom_26(MAX7219).map" -o Lessom_26(MAX7219)\Lessom_26(MAX7219).axf

@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"lesson16(adc_regular)\system_stm32f4xx.o"
+"lesson16(adc_regular)\startup_stm32f407xx.o"
+"lesson16(adc_regular)\stm32f4xx_hal_msp.o"
+"lesson16(adc_regular)\stm32f4xx_it.o"
+"lesson16(adc_regular)\main.o"
+"lesson16(adc_regular)\lcd.o"
+"lesson16(adc_regular)\stm32f4xx_hal_rcc_ex.o"
+"lesson16(adc_regular)\stm32f4xx_hal_flash.o"
+"lesson16(adc_regular)\stm32f4xx_hal.o"
+"lesson16(adc_regular)\stm32f4xx_hal_pwr.o"
+"lesson16(adc_regular)\stm32f4xx_hal_flash_ex.o"
+"lesson16(adc_regular)\stm32f4xx_hal_dma.o"
+"lesson16(adc_regular)\stm32f4xx_hal_dma_ex.o"
+"lesson16(adc_regular)\stm32f4xx_hal_adc.o"
+"lesson16(adc_regular)\stm32f4xx_hal_gpio.o"
+"lesson16(adc_regular)\stm32f4xx_hal_rcc.o"
+"lesson16(adc_regular)\stm32f4xx_hal_flash_ramfunc.o"
+"lesson16(adc_regular)\stm32f4xx_hal_pwr_ex.o"
+"lesson16(adc_regular)\stm32f4xx_hal_adc_ex.o"
+"lesson16(adc_regular)\stm32f4xx_hal_cortex.o"
+--library_type=microlib --strict --scatter "Lesson16(ADC_regular)\Lesson16(ADC_regular).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lesson16(ADC_regular).map" -o Lesson16(ADC_regular)\Lesson16(ADC_regular).axf

@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"less_6-lcd\system_stm32f4xx.o"
+"less_6-lcd\main.o"
+"less_6-lcd\stm32f4xx_it.o"
+"less_6-lcd\stm32f4xx_hal_msp.o"
+"less_6-lcd\lcd.o"
+"less_6-lcd\stm32f4xx_hal_flash.o"
+"less_6-lcd\stm32f4xx_hal_gpio.o"
+"less_6-lcd\stm32f4xx_hal_tim_ex.o"
+"less_6-lcd\stm32f4xx_hal_tim.o"
+"less_6-lcd\stm32f4xx_hal_flash_ramfunc.o"
+"less_6-lcd\stm32f4xx_hal.o"
+"less_6-lcd\stm32f4xx_hal_dma.o"
+"less_6-lcd\stm32f4xx_hal_cortex.o"
+"less_6-lcd\stm32f4xx_hal_dma_ex.o"
+"less_6-lcd\stm32f4xx_hal_flash_ex.o"
+"less_6-lcd\stm32f4xx_hal_pwr.o"
+"less_6-lcd\stm32f4xx_hal_pwr_ex.o"
+"less_6-lcd\stm32f4xx_hal_rcc.o"
+"less_6-lcd\stm32f4xx_hal_rcc_ex.o"
+"less_6-lcd\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Less_6-LCD\Less_6-LCD.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Less_6-LCD.map" -o Less_6-LCD\Less_6-LCD.axf

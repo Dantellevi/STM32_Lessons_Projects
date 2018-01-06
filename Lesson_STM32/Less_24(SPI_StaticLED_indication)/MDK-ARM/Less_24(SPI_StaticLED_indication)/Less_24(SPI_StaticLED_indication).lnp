@@ -1,0 +1,24 @@
+--cpu Cortex-M4.fp
+"less_24(spi_staticled_indication)\main.o"
+"less_24(spi_staticled_indication)\stm32f4xx_it.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_msp.o"
+"less_24(spi_staticled_indication)\led.o"
+"less_24(spi_staticled_indication)\system_stm32f4xx.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_dma_ex.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_spi.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_dma.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_rcc.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_pwr.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_flash_ramfunc.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_cortex.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_flash.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_flash_ex.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_gpio.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_rcc_ex.o"
+"less_24(spi_staticled_indication)\stm32f4xx_hal_pwr_ex.o"
+"less_24(spi_staticled_indication)\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Less_24(SPI_StaticLED_indication)\Less_24(SPI_StaticLED_indication).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Less_24(SPI_StaticLED_indication).map" -o Less_24(SPI_StaticLED_indication)\Less_24(SPI_StaticLED_indication).axf

@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"lesson17(adc_interrupt)\system_stm32f4xx.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_pwr.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_adc.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_rcc.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_adc_ex.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_flash.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_rcc_ex.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_cortex.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_gpio.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_dma.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_flash_ex.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_pwr_ex.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_flash_ramfunc.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_dma_ex.o"
+"lesson17(adc_interrupt)\stm32f4xx_hal_msp.o"
+"lesson17(adc_interrupt)\stm32f4xx_it.o"
+"lesson17(adc_interrupt)\main.o"
+"lesson17(adc_interrupt)\lcd.o"
+"lesson17(adc_interrupt)\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Lesson17(ADC_Interrupt)\Lesson17(ADC_Interrupt).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lesson17(ADC_Interrupt).map" -o Lesson17(ADC_Interrupt)\Lesson17(ADC_Interrupt).axf

@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"less_22(i2clcd)\stm32f4xx_hal_i2c_ex.o"
+"less_22(i2clcd)\stm32f4xx_hal_flash_ramfunc.o"
+"less_22(i2clcd)\stm32f4xx_hal_pwr.o"
+"less_22(i2clcd)\stm32f4xx_hal_gpio.o"
+"less_22(i2clcd)\stm32f4xx_hal_rcc_ex.o"
+"less_22(i2clcd)\stm32f4xx_hal_dma.o"
+"less_22(i2clcd)\stm32f4xx_hal_cortex.o"
+"less_22(i2clcd)\stm32f4xx_hal_i2c.o"
+"less_22(i2clcd)\stm32f4xx_hal_flash.o"
+"less_22(i2clcd)\stm32f4xx_hal_flash_ex.o"
+"less_22(i2clcd)\stm32f4xx_hal_pwr_ex.o"
+"less_22(i2clcd)\stm32f4xx_hal_dma_ex.o"
+"less_22(i2clcd)\stm32f4xx_hal.o"
+"less_22(i2clcd)\stm32f4xx_hal_rcc.o"
+"less_22(i2clcd)\startup_stm32f407xx.o"
+"less_22(i2clcd)\system_stm32f4xx.o"
+"less_22(i2clcd)\stm32f4xx_hal_msp.o"
+"less_22(i2clcd)\main.o"
+"less_22(i2clcd)\stm32f4xx_it.o"
+"less_22(i2clcd)\lcd.o"
+--library_type=microlib --strict --scatter "Less_22(I2CLCD)\Less_22(I2CLCD).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Less_22(I2CLCD).map" -o Less_22(I2CLCD)\Less_22(I2CLCD).axf

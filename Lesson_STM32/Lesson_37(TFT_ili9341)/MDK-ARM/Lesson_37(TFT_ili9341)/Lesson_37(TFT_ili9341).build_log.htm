@@ -1,0 +1,439 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Alex Lepotenko, ZPM, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+D:\Lesson_STM32\Lesson_37(TFT_ili9341)\MDK-ARM\Lesson_37(TFT_ili9341).uvprojx
+Project File Date:  05/07/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Lesson_37(TFT_ili9341)'
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_rng.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_hcd.c...
+compiling stm32f4xx_hal_sram.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_i2c.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_ll_usb.c...
+compiling stm32f4xx_hal_i2c_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_ll_fsmc.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling usb_host.c...
+compiling usbh_conf.c...
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(106): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+    USBH_StatusTypeDef          prev_ready_state;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(172): error:  #20: identifier "USBH_ClassTypeDef" is undefined
+  extern USBH_ClassTypeDef  USBH_msc;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(184): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_IsReady (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(187): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  int8_t             USBH_MSC_GetMaxLUN (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(189): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_UnitIsReady (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(193): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Read(USBH_HandleTypeDef *phost,
+../Src/usbh_conf.c: 0 warnings, 30 errors
+compiling main.c...
+../Src/main.c(92): warning:  #177-D: variable "res" was declared but never referenced
+  	FRESULT res;
+../Src/main.c(93): warning:  #177-D: variable "byteswritten" was declared but never referenced
+  	uint32_t byteswritten, bytesread;
+../Src/main.c(93): warning:  #177-D: variable "bytesread" was declared but never referenced
+  	uint32_t byteswritten, bytesread;
+../Src/main.c(94): warning:  #177-D: variable "rtext" was declared but never referenced
+  	uint8_t rtext[100];
+../Src/main.c: 4 warnings, 0 errors
+compiling stm32f4xx_hal_msp.c...
+compiling fatfs.c...
+compiling stm32f4xx_it.c...
+compiling lcd.c...
+compiling usbh_pipes.c...
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(106): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+    USBH_StatusTypeDef          prev_ready_state;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(172): error:  #20: identifier "USBH_ClassTypeDef" is undefined
+  extern USBH_ClassTypeDef  USBH_msc;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(184): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_IsReady (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(187): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  int8_t             USBH_MSC_GetMaxLUN (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(189): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_UnitIsReady (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(193): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c: 0 warnings, 30 errors
+compiling ili9341.c...
+..\Src\ili9341.c(459): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          f_lseek(&MyFile,offsetfile);
+..\Src\ili9341.c(460): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          res = f_read(&MyFile, charbuf, 8, (void *)&bytesread);
+..\Src\ili9341.c(471): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          f_lseek(&MyFile,offsetfile);
+..\Src\ili9341.c(472): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          res = f_read(&MyFile, charbuf, 12, (void *)&bytesread);
+..\Src\ili9341.c(483): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          f_lseek(&MyFile,offsetfile);
+..\Src\ili9341.c(484): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          res = f_read(&MyFile, charbuf, 32, (void *)&bytesread);
+..\Src\ili9341.c(495): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          f_lseek(&MyFile,offsetfile);
+..\Src\ili9341.c(496): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          res = f_read(&MyFile, charbuf, 40, (void *)&bytesread);
+..\Src\ili9341.c(507): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          f_lseek(&MyFile,offsetfile);
+..\Src\ili9341.c(508): error:  #167: argument of type "FILE *" is incompatible with parameter of type "FIL *"
+                          res = f_read(&MyFile, charbuf, 72, (void *)&bytesread);
+..\Src\ili9341.c: 0 warnings, 10 errors
+compiling usbh_core.c...
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(106): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+    USBH_StatusTypeDef          prev_ready_state;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(172): error:  #20: identifier "USBH_ClassTypeDef" is undefined
+  extern USBH_ClassTypeDef  USBH_msc;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(184): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_IsReady (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(187): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  int8_t             USBH_MSC_GetMaxLUN (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(189): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_UnitIsReady (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(193): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c: 0 warnings, 30 errors
+compiling usbh_ctlreq.c...
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(205): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_Reset(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(206): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_REQ_GetMaxLUN(USBH_HandleTypeDef *phost, uint8_t *Maxlun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(208): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Init(USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(209): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Process (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h(210): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_BOT_Error(USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(106): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+    USBH_StatusTypeDef          prev_ready_state;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(172): error:  #20: identifier "USBH_ClassTypeDef" is undefined
+  extern USBH_ClassTypeDef  USBH_msc;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(184): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_IsReady (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(187): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  int8_t             USBH_MSC_GetMaxLUN (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(189): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_UnitIsReady (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(193): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c: 0 warnings, 30 errors
+compiling usbh_msc.c...
+compiling usbh_msc_scsi.c...
+compiling usbh_ioreq.c...
+../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h(281): error:  #20: identifier "USBH_MAX_NUM_ENDPOINTS" is undefined
+    USBH_EpDescTypeDef               Ep_Desc[USBH_MAX_NUM_ENDPOINTS];   
+../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h(296): error:  #20: identifier "USBH_MAX_NUM_INTERFACES" is undefined
+    USBH_InterfaceDescTypeDef        Itf_Desc[USBH_MAX_NUM_INTERFACES];
+../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h(424): error:  #20: identifier "USBH_MAX_DATA_BUFFER" is undefined
+    uint8_t                           Data[USBH_MAX_DATA_BUFFER];
+../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h(457): error:  #20: identifier "USBH_MAX_NUM_SUPPORTED_CLASS" is undefined
+    USBH_ClassTypeDef*    pClass[USBH_MAX_NUM_SUPPORTED_CLASS];
+../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c: 0 warnings, 4 errors
+compiling usbh_msc_bot.c...
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(170): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_TestUnitReady (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(173): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_ReadCapacity (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(177): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Inquiry (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(181): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_RequestSense (USBH_HandleTypeDef *phost, 
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(185): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_SCSI_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(106): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+    USBH_StatusTypeDef          prev_ready_state;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(129): error:  #20: identifier "BOT_HandleTypeDef" is undefined
+    BOT_HandleTypeDef    hbot;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(172): error:  #20: identifier "USBH_ClassTypeDef" is undefined
+  extern USBH_ClassTypeDef  USBH_msc;
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(184): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_IsReady (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(187): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  int8_t             USBH_MSC_GetMaxLUN (USBH_HandleTypeDef *phost);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(189): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  uint8_t            USBH_MSC_UnitIsReady (USBH_HandleTypeDef *phost, uint8_t lun);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(191): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_GetLUNInfo(USBH_HandleTypeDef *phost, uint8_t lun, MSC_LUNTypeDef *info);
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(193): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(193): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Read(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(199): error:  #20: identifier "USBH_StatusTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h(199): error:  #20: identifier "USBH_HandleTypeDef" is undefined
+  USBH_StatusTypeDef USBH_MSC_Write(USBH_HandleTypeDef *phost,
+../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.c: 0 warnings, 24 errors
+compiling diskio.c...
+../Middlewares/Third_Party/FatFs/src/drivers/usbh_diskio.h(36): error:  #20: identifier "Diskio_drvTypeDef" is undefined
+  extern Diskio_drvTypeDef  USBH_Driver;
+../Middlewares/Third_Party/FatFs/src/diskio.c: 0 warnings, 1 error
+compiling usbh_diskio.c...
+../Middlewares/Third_Party/FatFs/src/drivers/usbh_diskio.h(36): error:  #20: identifier "Diskio_drvTypeDef" is undefined
+  extern Diskio_drvTypeDef  USBH_Driver;
+../Middlewares/Third_Party/FatFs/src/drivers/usbh_diskio.c: 0 warnings, 1 error
+compiling ff_gen_drv.c...
+../Middlewares/Third_Party/FatFs/src/drivers/usbh_diskio.h(36): error:  #20: identifier "Diskio_drvTypeDef" is undefined
+  extern Diskio_drvTypeDef  USBH_Driver;
+../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c: 0 warnings, 1 error
+compiling syscall.c...
+../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h(64): error:  #20: identifier "_VOLUMES" is undefined
+    uint8_t                 is_initialized[_VOLUMES];
+../Middlewares/Third_Party/FatFs/src/option/syscall.c: 0 warnings, 1 error
+compiling ff.c...
+../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h(64): error:  #20: identifier "_VOLUMES" is undefined
+    uint8_t                 is_initialized[_VOLUMES];
+../Middlewares/Third_Party/FatFs/src/ff.c: 0 warnings, 1 error
+"Lesson_37(TFT_ili9341)\Lesson_37(TFT_ili9341).axf" - 163 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\Lesson_STM32\Lesson_37(TFT_ili9341)\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:01:52
+</pre>
+</body>
+</html>

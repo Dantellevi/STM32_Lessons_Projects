@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_rcc.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_dma_ex.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_flash_ramfunc.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_cortex.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_dma.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_gpio.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_adc.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_pwr_ex.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_flash.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_rcc_ex.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_flash_ex.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_pwr.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_adc_ex.o"
+"lesson19(adc_inject_chennel)\system_stm32f4xx.o"
+"lesson19(adc_inject_chennel)\startup_stm32f407xx.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_it.o"
+"lesson19(adc_inject_chennel)\main.o"
+"lesson19(adc_inject_chennel)\stm32f4xx_hal_msp.o"
+"lesson19(adc_inject_chennel)\lcd.o"
+--library_type=microlib --strict --scatter "Lesson19(ADC_inject_chennel)\Lesson19(ADC_inject_chennel).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lesson19(ADC_inject_chennel).map" -o Lesson19(ADC_inject_chennel)\Lesson19(ADC_inject_chennel).axf

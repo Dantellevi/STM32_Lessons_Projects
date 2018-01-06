@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+"lesson_29(dac_dma)\stm32f4xx_it.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_msp.o"
+"lesson_29(dac_dma)\main.o"
+"lesson_29(dac_dma)\system_stm32f4xx.o"
+"lesson_29(dac_dma)\startup_stm32f407xx.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_dma_ex.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_cortex.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_pwr.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_dac_ex.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_rcc.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_flash_ramfunc.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_rcc_ex.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_tim.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_gpio.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_tim_ex.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_dac.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_pwr_ex.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_dma.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_flash_ex.o"
+"lesson_29(dac_dma)\stm32f4xx_hal.o"
+"lesson_29(dac_dma)\stm32f4xx_hal_flash.o"
+--library_type=microlib --strict --scatter "Lesson_29(DAC_DMA)\Lesson_29(DAC_DMA).sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lesson_29(DAC_DMA).map" -o Lesson_29(DAC_DMA)\Lesson_29(DAC_DMA).axf

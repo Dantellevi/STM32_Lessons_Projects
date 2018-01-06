@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"project_lsm6ds0\startup_stm32f401xe.o"
+"project_lsm6ds0\system_stm32f4xx.o"
+"project_lsm6ds0\stm32f4xx_hal_dma_ex.o"
+"project_lsm6ds0\stm32f4xx_hal_gpio.o"
+"project_lsm6ds0\stm32f4xx_hal_i2c_ex.o"
+"project_lsm6ds0\stm32f4xx_hal_cortex.o"
+"project_lsm6ds0\stm32f4xx_hal_tim_ex.o"
+"project_lsm6ds0\stm32f4xx_hal_rcc_ex.o"
+"project_lsm6ds0\stm32f4xx_hal.o"
+"project_lsm6ds0\stm32f4xx_hal_flash_ramfunc.o"
+"project_lsm6ds0\stm32f4xx_hal_rcc.o"
+"project_lsm6ds0\stm32f4xx_hal_i2c.o"
+"project_lsm6ds0\stm32f4xx_hal_pwr_ex.o"
+"project_lsm6ds0\stm32f4xx_hal_flash_ex.o"
+"project_lsm6ds0\stm32f4xx_hal_dma.o"
+"project_lsm6ds0\stm32f4xx_hal_uart.o"
+"project_lsm6ds0\stm32f4xx_hal_pwr.o"
+"project_lsm6ds0\stm32f4xx_hal_tim.o"
+"project_lsm6ds0\stm32f4xx_hal_flash.o"
+"project_lsm6ds0\stm32f4xx_it.o"
+"project_lsm6ds0\stm32f4xx_hal_msp.o"
+"project_lsm6ds0\main.o"
+"project_lsm6ds0\lsm6ds0.o"
+--library_type=microlib --strict --scatter "Project_LSM6DS0\Project_LSM6DS0.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Project_LSM6DS0.map" -o Project_LSM6DS0\Project_LSM6DS0.axf

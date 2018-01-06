@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"projectacsellerometrf303\system_stm32f3xx.o"
+"projectacsellerometrf303\startup_stm32f303xc.o"
+"projectacsellerometrf303\stm32f3xx_it.o"
+"projectacsellerometrf303\main.o"
+"projectacsellerometrf303\stm32f3xx_hal_msp.o"
+"projectacsellerometrf303\lsd303dlh.o"
+"projectacsellerometrf303\stm32f3xx_hal_rcc.o"
+"projectacsellerometrf303\stm32f3xx_hal_flash_ex.o"
+"projectacsellerometrf303\stm32f3xx_hal_rcc_ex.o"
+"projectacsellerometrf303\stm32f3xx_hal_flash.o"
+"projectacsellerometrf303\stm32f3xx_hal_pwr.o"
+"projectacsellerometrf303\stm32f3xx_hal_dma.o"
+"projectacsellerometrf303\stm32f3xx_hal_i2c_ex.o"
+"projectacsellerometrf303\stm32f3xx_hal_gpio.o"
+"projectacsellerometrf303\stm32f3xx_hal_pwr_ex.o"
+"projectacsellerometrf303\stm32f3xx_hal.o"
+"projectacsellerometrf303\stm32f3xx_hal_uart.o"
+"projectacsellerometrf303\stm32f3xx_hal_uart_ex.o"
+"projectacsellerometrf303\stm32f3xx_hal_i2c.o"
+"projectacsellerometrf303\stm32f3xx_hal_cortex.o"
+--library_type=microlib --strict --scatter "ProjectAcsellerometrF303\ProjectAcsellerometrF303.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ProjectAcsellerometrF303.map" -o ProjectAcsellerometrF303\ProjectAcsellerometrF303.axf
